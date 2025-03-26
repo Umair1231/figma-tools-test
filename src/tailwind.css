@@ -1,0 +1,143 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --body-regular-font-family: "Roboto", Helvetica;
+  --body-regular-font-size: 14px;
+  --body-regular-font-style: normal;
+  --body-regular-font-weight: 400;
+  --body-regular-letter-spacing: 0px;
+  --body-regular-line-height: 22px;
+  --character-primaryinverse: rgba(255, 255, 255, 1);
+  --character-secondary-45: rgba(0, 0, 0, 0.45);
+  --characterdisabled-placeholder-25: rgba(0, 0, 0, 0.25);
+  --charactertitle-85: rgba(0, 0, 0, 0.85);
+  --conditional-sider-background: rgba(255, 255, 255, 1);
+  --drop-shadow-0-15: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+  --drop-shadow-button-primary: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
+  --drop-shadow-button-secondary: 0px 2px 0px 0px rgba(0, 0, 0, 0.02);
+  --dust-red-5: rgba(255, 77, 79, 1);
+  --footnote-system-monospace-font-family: "Roboto Mono", Helvetica;
+  --footnote-system-monospace-font-size: 12px;
+  --footnote-system-monospace-font-style: normal;
+  --footnote-system-monospace-font-weight: 400;
+  --footnote-system-monospace-letter-spacing: 0px;
+  --footnote-system-monospace-line-height: 20px;
+  --geek-blue-7: rgba(29, 57, 196, 1);
+  --geek-blue6: rgba(47, 84, 235, 1);
+  --geek-blue7: rgba(29, 57, 196, 1);
+  --h4-medium-font-family: "Roboto", Helvetica;
+  --h4-medium-font-size: 20px;
+  --h4-medium-font-style: normal;
+  --h4-medium-font-weight: 500;
+  --h4-medium-letter-spacing: 0px;
+  --h4-medium-line-height: 28px;
+  --h5-medium-font-family: "Roboto", Helvetica;
+  --h5-medium-font-size: 16px;
+  --h5-medium-font-style: normal;
+  --h5-medium-font-weight: 500;
+  --h5-medium-letter-spacing: 0px;
+  --h5-medium-line-height: 24px;
+  --h5-regular-font-family: "Roboto", Helvetica;
+  --h5-regular-font-size: 16px;
+  --h5-regular-font-style: normal;
+  --h5-regular-font-weight: 400;
+  --h5-regular-letter-spacing: 0px;
+  --h5-regular-line-height: 24px;
+  --hitbox: rgba(255, 255, 255, 0.0);
+  --neutral-1: rgba(255, 255, 255, 1);
+  --neutral-2: rgba(250, 250, 250, 1);
+  --neutral-3: rgba(245, 245, 245, 1);
+  --neutral-5: rgba(217, 217, 217, 1);
+  --primary-1: rgba(230, 247, 255, 1);
+  --primary-6: rgba(24, 144, 255, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
