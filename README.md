@@ -5,3 +5,76 @@ The link below is for the figma file we used for code generation.
 https://www.figma.com/design/g4qCSzHcMwwUAzqUOchh66/Landteller---COPY?node-id=0-1&t=Iry6WGAcgj28VCvR-1
 
 Both plugins can be used by simply going to a figma file with these plugins enabled, and opening them using the plugin menu. You can then select a particular frame to generate the code of.
+
+## Builder.io Setup and Usage
+
+
+# 🔗 Integrating Builder.io with Figma to Generate Code
+
+Follow the steps below to integrate the Builder.io plugin into your Figma account and generate production-ready code from your Figma designs.
+
+## ⚙️ Step 1: Install Builder.io Plugin for Figma
+
+1. Open the Builder.io plugin page on Figma Community:  
+   [Builder.io: AI-Powered Figma to Code](https://www.figma.com/community/plugin/747985167520967365/builder-io-ai-powered-figma-to-code-react-vue-tailwind-more)
+
+2. Click on **"Open in Dev Mode"**.
+
+3. Log in with your Figma account when prompted.  
+   This will install the **Builder.io** plugin to your account.
+
+---
+
+## 🎨 Step 2: Open Figma Design and Launch Plugin
+
+1. Open any of your Figma design files.
+
+2. Go to the top menu and select:  
+   **Actions → Plugins & widgets → Builder.io**
+
+---
+
+## 🚀 Step 3: Export Design and Generate Code
+
+1. Select any **frame** within your design.
+
+2. In the Builder.io plugin window, click **"Export design"**.
+
+3. You will be presented with some **sample export templates**.  
+   Choose the one you like.
+
+4. A new window will open showing:
+   - The **generated code** (React, Vue, Tailwind, etc.)
+   - A **prompt box** where you can further customize the output
+
+---
+
+
+## Anima Setup and Usage
+
+## ⚙️ Step 1: Install Anima Plugin for Figma
+
+1. Open your Figma file.
+
+2. Go to Plugins > Browse Plugins in Community.
+
+3. Search for "Anima".
+
+4. Click Install on the plugin called **Anima - Prototype, Animate, Export Code**.
+
+## 🔐 Step 2: Sign In to Anima
+
+1. Go to Plugins > Anima to open the plugin.
+
+2. Click Sign In.
+
+3. A browser window will open — sign in with Google or your email.
+
+
+## 🚀 Step 3: Select Frame and Generate Code
+
+1. Select any **frame** within your design.
+
+2. In the Anima plugin window, Select the language and the styling library you want.
+
+3. The generated files will be displayed in the plugin window.
